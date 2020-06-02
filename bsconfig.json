@@ -1,0 +1,24 @@
+
+{
+  "name": "react-hooks-template",
+  "reason": {
+    "react-jsx": 3
+  },
+  "sources": {
+    "dir" : "src",
+    "subdirs" : true
+  },
+  "package-specs": [{
+    "module": "commonjs"
+  }],
+  "namespace": true,
+  "bs-dependencies": [
+    "reason-react",
+    "restorative"
+  ],
+  "refmt": 3,
+  "warnings": {
+    "number": "+A-48-42-41-40-4-9-102",
+    "error": "+A"
+  }  
+}
