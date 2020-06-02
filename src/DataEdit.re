@@ -25,6 +25,9 @@ let make = () => {
       {name: "", phone: "", address: ""}: localState,
     );
 
+  /* use this to update local state after global state
+     otherwise what is below in '| Some(company) =>' will cause an infinite loop
+  */ 
   React.useEffect1(
     () => {
       switch (globalState.editCompany) {
